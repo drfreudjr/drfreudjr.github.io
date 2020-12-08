@@ -1,0 +1,49 @@
+body 	{background-color: #24505E;
+	}
+
+#stripe { background-color: #303030;
+	  width: 100%;}
+
+#name {	  color: white;
+	  font-family:helvetica, serif;
+	  font-size: 40px;
+	  font-style: italic;
+	  letter-spacing: 0.12em;  
+	  text-align: left; 
+	  text-indent: 20px;
+	  vertical-align: text-top;} 	
+
+.menu { color: #999999;
+	font-family: arial black, tahoma;
+	font-weight: bold;
+	font-size:17px;
+	  font-style: italic;
+	width: 170px;	}
+
+p.space {font-size:50px;)}
+
+#my_picture {
+float: right;    
+ margin: 0 0 0 0px;}
+
+#columns {width: 60%;
+	font-family: tahoma, courier;}
+
+th.intro {font-size:30px;
+	color: #A8D0A6;
+	height:70px;
+	width:33%;
+  	vertical-align: top;
+	text-align:left;
+	padding: 0px 25px 0px 25px;}
+
+td.content {color:#F8E9A1;
+	    padding: 25px;
+  	    vertical-align: top;}
+
+
+	
+
+
+
+
