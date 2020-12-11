@@ -1,8 +1,13 @@
-body 	{background-color: #24505E;
-	}
+body 	{background-color: #24505E;}
 
 #stripe { background-color: #303030;
-	  width: 100%;}
+	  background:linear-gradient(left, #303030, #24505E);
+	  background:-moz-linear-gradient(left, #303030, #24505E);
+	  width: 100%;
+  	  position: fixed;
+ 	  top: 0px;
+ 	  left: 0px;
+}
 
 #name {	  color: white;
 	  font-family:helvetica, serif;
@@ -17,14 +22,14 @@ body 	{background-color: #24505E;
 	font-family: arial black, tahoma;
 	font-weight: bold;
 	font-size:17px;
-	  font-style: italic;
-	width: 170px;	}
+	font-style: italic;
+	width: 170px;}
 
-p.space {font-size:50px;)}
+p.space {font-size:80px;)}
 
 #my_picture {
-float: right;    
- margin: 0 0 0 0px;}
+	float: right;    
+	margin: 0 0 0 0px;}
 
 #columns {width: 60%;
 	font-family: tahoma, courier;}
