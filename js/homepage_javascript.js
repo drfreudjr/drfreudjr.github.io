@@ -1,5 +1,7 @@
 /* Javascript for my homepages - feel free to borrow any code you like! */
 
+/* ################### MENU ELEMENT STUFF  ########################## */
+
 /* Function to swap out text of dead menu links with menu-item element passed as parameter */
 
 	function change_dead_link (element_to_change, message) {
@@ -32,4 +34,13 @@
 		menu_items[counter].addEventListener('mouseout', function() {  		// Anonymous function needed to send parameters 
 			change_dead_link(menu_items[counter], menu_items_original_text[counter])}, false);	// Send element of triggered menu_item
 	}
+
+/*  ############################ END MENU STUFF ####################################### */
+
+/* ############################# SCALE PAGE TO WIDTH ################################## */
+
+
+
+
+
 
