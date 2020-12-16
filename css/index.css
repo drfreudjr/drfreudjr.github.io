@@ -5,14 +5,14 @@ body 	{background-color: #24505E;
 	  background:linear-gradient(left, #303030, #24505E);
 	  background:-moz-linear-gradient(left, #303030, #24505E);
 	  width: 100%;
-  	  position: fixed;
+  	  position: fixed; /* These three lines necessary to get rid of buffer to browser edges */
  	  top: 0px;
- 	  left: 0px;
+ 	  left: 0px; 
 }
 
 #name {	  color: white;
 	  font-family:helvetica, serif;
-	  font-size: 40px;
+	  font-size: 3vw;	/* adjust as percentage of SCREEEN width (as opposed to element) */
 	  font-style: italic;
 	  letter-spacing: 0.12em;  
 	  text-align: left; 
@@ -22,7 +22,7 @@ body 	{background-color: #24505E;
 .menu { color: #999999;
 	font-family: arial black, tahoma;
 	font-weight: bold;
-	font-size:17px;
+	font-size:17px;		/* adjust as percetage of SCREEEN width (as opposed to element) */
 	font-style: italic;
 	width: 170px;}
 
