@@ -12,7 +12,7 @@ body 	{background-color: #24505E;
 
 #name {	  color: white;
 	  font-family:helvetica, serif;
-	  font-size: 3vw;	/* adjust as percentage of SCREEEN width (as opposed to element) */
+	  font-size: 30px;	/* adjust as percentage of SCREEEN width (as opposed to element) */
 	  font-style: italic;
 	  letter-spacing: 0.12em;  
 	  text-align: left; 
@@ -29,9 +29,10 @@ body 	{background-color: #24505E;
 p.space {font-size:100px;)}
 
 #my_picture {
-	float: right;    
+   
 	margin: 0 0 0 0px;
-	width: 30%}
+	width: 30%;
+	float:right;}
 
 #columns {width: 60%;
 	font-family: tahoma, courier;}
